@@ -16,14 +16,14 @@ export default function EbayButton({ onPress, title }: Props) {
 const styles = StyleSheet.create({
   button: {
     borderWidth: 4,
-    borderColor: "#007eb9",
+    borderColor: "#blue",
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,
-    backgroundColor: "red",
+    backgroundColor: "blue",
   },
   buttonText: {
-    color: "#007eb9",
+    color: "#ffffff",
     fontWeight: "bold",
     textAlign: "center",
   },
